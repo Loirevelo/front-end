@@ -1,0 +1,161 @@
+#landing-trend {
+	.ltr-container {
+		max-width: 1200px;
+		padding: 80px 20px 80px 20px;
+		margin: 0 auto;
+
+		.ltrc-assets {
+			margin-bottom: 100px;
+			justify-content: center;
+
+			.ltrcsa-element {
+				width: 280px;
+				margin: 0 15px;
+
+				.ltrcsae-title {
+					align-items: center;
+					margin-bottom: 15px;
+
+					.title-picture {
+						height: 70px;
+						width: 70px;
+						border-radius: 2px;
+						margin-right: 15px;
+						background-image: url("/public/images/icons/Illustrations/@1x/Professionnalisme.png");
+						background-position: center center;
+						background-size: cover;
+					}
+
+					h4 {
+						font-family: 'sofia-regular';
+						font-size: 25px;
+					}
+				}
+
+				p {
+					font-family: 'avenir-regular';
+					font-size: 16px;
+					color: #6C6C6C;
+				}
+			}
+		}
+
+		.ltrc-trending {
+			margin-top: 30px;
+
+			.ltrc-title-container {
+				margin-bottom: 50px;
+				position: relative;
+
+				.ltrctc-text {
+					font-family: 'sofia-semibold';
+					font-size: 30px;
+					color: #3E3D40;
+					text-transform: uppercase;
+					padding-bottom: 15px;
+					border-bottom: 1px solid #e5e5e5;
+				}
+
+				.ltrctc-text:before {
+					background: #009933;
+					bottom: -1px;
+					content: "";
+					height: 4px;
+					position: absolute;
+					width: 100px;
+				}
+			}
+
+			.ltrct-card {
+				width: 278px;
+				border: 1px solid #e5e5e5;
+				margin: 0 15px;
+
+				.card-picture {
+					height: 278px;
+					background-image: url('/public/images/photos/pictures/amboise.jpg');
+					background-position: center center;
+					background-size: cover;
+				}
+
+				.card-title {
+					padding: 25px 15px;
+					border-bottom: 1px solid #e5e5e5;
+					margin-bottom: 0;
+
+					h4 {
+						font-family: 'sofia-semibold';
+						font-size: 18px;
+						margin-bottom: 15px;
+						color: #3E3D40;
+					}
+
+					h6 {
+						font-family: 'sofia-regular';
+						font-size: 12px;
+						text-transform: uppercase;
+						color: #A9ACA9;
+					}
+				}
+
+				.card-info {
+					padding: 10px 15px 25px 15px;
+					align-items: center;
+
+					.info-calendar {
+						align-items: center;
+						padding-right: 10px;
+						border-right: 1px solid #A9ACA9;
+
+						.fa-calendar-alt {
+							font-size: 14px;
+							color: #A9ACA9;
+							margin-right: 5px;
+						}
+
+						span {
+							font-family: 'avenir-regular';
+							font-size: 12px;
+							color: #A9ACA9;
+						}
+					}
+
+					.info-people {
+						padding-left: 10px;
+						align-items: center;
+
+						.fa-user {
+							font-size: 12px;
+							color: #A9ACA9;
+							margin-right: 5px;
+						}
+
+						span {
+							font-family: 'avenir-regular';
+							font-size: 12px;
+							color: #A9ACA9;
+						}
+					}
+				}
+
+				.card-price {
+					padding: 0px 15px 20px 15px;
+
+					.info-price {
+						text-align: left;
+
+						p {
+							font-family: 'sofia-semibold';
+							font-size: 20px;
+						}
+					}
+
+					button {
+					    font-family: 'sofia-semibold';
+					    font-size: 10px;
+					}
+				}
+			}
+		}
+	}
+}

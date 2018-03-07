@@ -1,0 +1,63 @@
+<section id="landing-search">
+	<div class="ls-container">
+		<div class="lsc-search-module d-flex">
+			<div class="lscsm-select">
+				<div class="search-title">
+					<h3>You searched for la Loire, France</h3>
+					<p>Below you will find all the bike rental companies in Amsterdam, Netherlands. Book your bike and have fun!</p>
+				</div>
+
+				<div class="search-options">
+					<label>Type of trip</label>
+					<div class="select-types d-flex">
+						<div class="select-type d-flex">
+							<div class="select-box"></div>
+							<span>Séjour en marguerite</span>
+						</div>
+						<div class="select-type d-flex">
+							<div class="select-box"><i class="fa fa-check"></i></div>
+							<span>Séjour en étoile</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="search-options">
+					<label>Duration</label>
+					<div class="so-slider">
+						<mat-slider class="search-slider cursor-pt"
+							[disabled]="disabled"
+							[invert]="invert"
+							[max]="max"
+							[min]="min"
+							[step]="step"
+							[thumb-label]="thumbLabel"
+							[tick-interval]="tickInterval"
+							[(ngModel)]="value"
+							[vertical]="vertical">
+						</mat-slider>
+						<div class="tooltipw">{{ min / 10 }} to {{ value / 10 }} days</div>
+					</div>
+					<div class="slider-value d-flex">
+						<span class="day-start">3 days</span>
+						<span class="day-end">5 days</span>
+					</div>
+					<!-- <div class="select-types d-flex">
+						<div class="select-type d-flex">
+							<div class="select-box"></div>
+							<span>Séjour en marguerite</span>
+						</div>
+						<div class="select-type d-flex">
+							<div class="select-box"><i class="fa fa-check"></i></div>
+							<span>Séjour en étoile</span>
+						</div>
+					</div> -->
+				</div>
+
+				<button class="green-button cursor-pt">Search</button>
+			</div>
+
+			<div class="lscsm-map">
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,40 @@
+<section id="landing">
+	<div class="landing-body">
+		<ngu-carousel id="ngu" [inputs]="carouselOne" (carouselLoad)="myfunc($event)">
+			<ngu-item NguCarouselItem>
+				<div class="carousel-images ci-1">
+					<div class="filter"></div>
+					<div class="text-field align-center">
+						<h1>Discover mon anus</h1>
+						<h2>As-tu vus ma prolapsus ?</h2>
+					</div>
+				</div>
+			</ngu-item>
+			<ngu-item NguCarouselItem>
+				<div class="carousel-images ci-2">
+					<div class="filter"></div>
+					<div class="text-field align-center">
+						<h1>Discover mon anus</h1>
+						<h2>As-tu vus ma prolapsus ?</h2>
+					</div>
+				</div>
+			</ngu-item>
+			<ngu-item NguCarouselItem>
+				<div class="carousel-images ci-3">
+					<div class="filter"></div>
+					<div class="text-field align-center">
+						<h1>Discover mon anus</h1>
+						<h2>As-tu vus ma prolapsus ?</h2>
+					</div>
+				</div>
+			</ngu-item>
+			<button NguCarouselPrev class='leftRs'>&lt;</button>
+			<button NguCarouselNext class='rightRs'>&gt;</button>
+		</ngu-carousel>
+	</div>
+
+	<app-landing-search></app-landing-search>
+	<app-landing-discover></app-landing-discover>
+	<app-landing-trending></app-landing-trending>
+	<app-landing-testimonial></app-landing-testimonial>
+</section>

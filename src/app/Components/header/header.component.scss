@@ -1,0 +1,143 @@
+#vht {
+	background-color: #3E3D40;
+
+	.velo-header-top {
+		max-width: 1000px;
+		margin: 0 auto;
+
+		.vht-call, .vht-social-int {
+			flex-grow: 1;
+		}
+
+		.vht-call {
+			align-self: center;
+
+			h6 {
+				color: #fff;
+				font-family: 'avenir-regular';
+				font-size: 12px;
+			}
+		}
+
+		.vht-social-int {
+			justify-content: center;
+			align-items: center;
+
+			.vht-social {
+				padding: 3px 15px;
+				border-left: 1px solid rgba(255, 255, 255, 0.2);
+				margin-left: auto;
+
+				.fa-facebook-f {
+					color: #fff;
+					margin-right: 15px;
+				}
+
+				.fa-twitter {
+					color: #fff;
+					margin-right: 15px;
+				}
+
+				.fa-instagram {
+					color: #fff;
+					margin-right: 15px;
+				}
+
+				.fa-envelope {
+					color: #fff;
+				}
+			}
+
+			.vht-int {
+				position: relative;
+				height: 100%;
+				align-items: center;
+				border-right: 1px solid rgba(255, 255, 255, 0.2);
+				border-left: 1px solid rgba(255, 255, 255, 0.2);
+				padding-right: 24px;
+				padding-left: 25px;
+
+				.flag-icon {
+					margin-right: 20px;
+				}
+
+				.fa-angle-down {
+					color: #fff;
+/*					font-size: 10px;
+*/				}
+
+				.vht-int-multi {
+					position: absolute;
+					left: 0;
+					top: 0;
+					margin-top: 30px;
+					padding: 10px 26px 10px 27px;
+					background-color: #3E3D40;
+					
+					li {
+						margin-bottom: 15px;
+
+						.flag-icon {
+							margin-right: 10px;
+						}
+
+						.country {
+							font-family: 'avenir-regular';
+							font-size: 12px;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#vhb {
+	border-bottom: 1px solid #e5e5e5;
+
+	.velo-header-bottom {
+		max-width: 1000px;
+		margin: 0 auto;
+		align-items: center;
+
+		img {
+			width: 100px;
+			height: auto;
+			margin-right: 35px;
+		}
+
+		.velo-brand, .velo-nav {
+/*			flex-grow: 1;
+*/		}
+
+		.velo-nav {
+			ul {
+				li {
+					font-family: 'sofia-semibold';
+					font-size: 16px;
+					text-transform: uppercase;
+					margin: 0 25px;
+/*					padding-bottom: 2px;
+*/					color: #009933;
+
+					.hvr-underline-from-center {
+						color: #009933;
+					}
+
+					.hvr-underline-from-center:before {
+						background: #009933;
+						height: 2px;
+						margin-top: 2px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
