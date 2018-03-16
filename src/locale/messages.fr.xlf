@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="d216936e0b3879e9ec84acb44cda66166bdb5dfa" datatype="html">
+        <source>Discover new things</source>
+        <target>Découvrir de nouvelles choses</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/Components/landing/landing.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

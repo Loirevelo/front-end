@@ -1,9 +1,9 @@
 #landing-discover {
-	background-color: #f2f2f2;
+	background-color: #F8F0F0;
 
 	.ld-container {
 		max-width: 1200px;
-		padding: 80px 20px;
+		padding: 120px 20px;
 		margin: 0 auto;
 
 		.ldc-title-container {
@@ -16,8 +16,9 @@
 				color: #3E3D40;
 				text-transform: uppercase;
 				padding-bottom: 15px;
-				border-bottom: 1px solid #e5e5e5;
-			}
+				text-align: center;
+/*				border-bottom: 1px solid #e5e5e5;
+*/			}
 
 			.ldctc-text:before {
 				background: #009933;
@@ -26,6 +27,9 @@
 				height: 4px;
 				position: absolute;
 				width: 100px;
+				left: 0;
+				right: 0;
+				margin: 0 auto;
 			}
 		}
 

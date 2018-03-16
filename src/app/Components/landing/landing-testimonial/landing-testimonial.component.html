@@ -1,14 +1,94 @@
 <section id="landing-testimonial">
-	<div class="lte-container">
-		<h2>Our client's words</h2>
-		<div class="ltec-slide d-flex">
-			<img src="/public/images/photos/pictures/Loire_a_Velo.jpg" alt="testimonial-picture" />
-			<div class="testimonial-text">
-				<p>"Donec quis vulputate lectus. Sed tempor venenatis elementum. Cras commodo lacus nec imperdiet dignissim. Nunc scelerisque interdum diam a aliquam. Vestibulum eget massa auctor, consequat quam ut, auctor nibh. Nam volutpat odio sit amet ullamcorper placerat. Aliquam porta tincidunt urna ac commodo."</p>
-				<div class="signature">
-					<strong>Alexander Doe,</strong> <span>Telecom@AirtelCom</span>
+	<div class="landing-background">
+	<div class="lt-container d-flex">
+
+		<div class="lte-container">
+			<h2>Our client's words</h2>
+			<ngu-carousel id="ngui" [inputs]="carouselTwo" (carouselLoad)="myfunc($event)">
+				<ngu-item NguCarouselItem>
+					<div class="ltec-slide d-flex">
+						<img src="/public/images/photos/pictures/Loire_a_Velo.jpg" alt="testimonial-picture" />
+						<div class="testimonial-text">
+							<p>"Donec quis vulputate lectus. Sed tempor venenatis elementum. Cras commodo lacus nec imperdiet dignissim. Nunc scelerisque interdum diam a aliquam. Vestibulum eget massa auctor, consequat quam ut, auctor nibh. Nam volutpat odio sit amet ullamcorper placerat. Aliquam porta tincidunt urna ac commodo."</p>
+							<div class="signature">
+								<strong>Alexander Doe,</strong> <span>Telecom@AirtelCom</span>
+							</div>
+						</div>
+					</div>
+				</ngu-item>
+				<ngu-item NguCarouselItem>
+					<div class="ltec-slide d-flex">
+						<img src="/public/images/photos/pictures/Loire_a_Velo.jpg" alt="testimonial-picture" />
+						<div class="testimonial-text">
+							<p>"Donec quis vulputate lectus. Sed tempor venenatis elementum. Cras commodo lacus nec imperdiet dignissim. Nunc scelerisque interdum diam a aliquam. Vestibulum eget massa auctor, consequat quam ut, auctor nibh. Nam volutpat odio sit amet ullamcorper placerat. Aliquam porta tincidunt urna ac commodo."</p>
+							<div class="signature">
+								<strong>Alexander Doe,</strong> <span>Telecom@AirtelCom</span>
+							</div>
+						</div>
+					</div>
+				</ngu-item>
+				<ngu-item NguCarouselItem>
+					<div class="ltec-slide d-flex">
+						<img src="/public/images/photos/pictures/Loire_a_Velo.jpg" alt="testimonial-picture" />
+						<div class="testimonial-text">
+							<p>"Donec quis vulputate lectus. Sed tempor venenatis elementum. Cras commodo lacus nec imperdiet dignissim. Nunc scelerisque interdum diam a aliquam. Vestibulum eget massa auctor, consequat quam ut, auctor nibh. Nam volutpat odio sit amet ullamcorper placerat. Aliquam porta tincidunt urna ac commodo."</p>
+							<div class="signature">
+								<strong>Alexander Doe,</strong> <span>Telecom@AirtelCom</span>
+							</div>
+						</div>
+					</div>
+				</ngu-item>
+				<ngu-item NguCarouselItem>
+					<div class="ltec-slide d-flex">
+						<img src="/public/images/photos/pictures/Loire_a_Velo.jpg" alt="testimonial-picture" />
+						<div class="testimonial-text">
+							<p>"Donec quis vulputate lectus. Sed tempor venenatis elementum. Cras commodo lacus nec imperdiet dignissim. Nunc scelerisque interdum diam a aliquam. Vestibulum eget massa auctor, consequat quam ut, auctor nibh. Nam volutpat odio sit amet ullamcorper placerat. Aliquam porta tincidunt urna ac commodo."</p>
+							<div class="signature">
+								<strong>Alexander Doe,</strong> <span>Telecom@AirtelCom</span>
+							</div>
+						</div>
+					</div>
+				</ngu-item>
+				<button NguCarouselPrev class='leftRs' style="opacity: 0">&lt;</button>
+				<button NguCarouselNext class='rightRs' style="opacity: 0">&gt;</button>
+			</ngu-carousel>
+		</div>
+
+		<div class="ltrc-assets d-flex">
+			<div class="ltrcsa-element">
+				<div class="ltrcsae-title d-flex">
+					<div class="title-picture"></div>
+					<h4>Professional</h4>
 				</div>
+
+				<p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+			</div>
+			<div class="ltrcsa-element">
+				<div class="ltrcsae-title d-flex">
+					<div class="title-picture"></div>
+					<h4>Excellent Quality</h4>
+				</div>
+
+				<p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+			</div>
+			<div class="ltrcsa-element">
+				<div class="ltrcsae-title d-flex">
+					<div class="title-picture"></div>
+					<h4>Best Team</h4>
+				</div>
+
+				<p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+			</div>
+			<div class="ltrcsa-element">
+				<div class="ltrcsae-title d-flex">
+					<div class="title-picture"></div>
+					<h4>Unique course</h4>
+				</div>
+
+				<p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
 			</div>
 		</div>
+		
 	</div>
+</div>
 </section>

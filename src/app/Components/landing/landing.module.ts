@@ -21,6 +21,7 @@ import { LandingDiscoverComponent } from './landing-discover/landing-discover.co
 import { LandingSearchComponent } from './landing-search/landing-search.component';
 import { LandingTestimonialComponent } from './landing-testimonial/landing-testimonial.component';
 import { LandingTrendingComponent } from './landing-trending/landing-trending.component';
+import { LandingPartnerComponent } from './landing-partner/landing-partner.component';
 
 @NgModule({
 	imports: [
@@ -38,7 +39,8 @@ import { LandingTrendingComponent } from './landing-trending/landing-trending.co
 		LandingDiscoverComponent,
 		LandingSearchComponent,
 		LandingTestimonialComponent,
-		LandingTrendingComponent
+		LandingTrendingComponent,
+		LandingPartnerComponent
 	],
 	exports:[
 		LandingComponent,

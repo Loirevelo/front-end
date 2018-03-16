@@ -17,6 +17,7 @@ export class LandingSearchComponent implements OnInit {
 	thumbLabel 	= false;
 	value 		= 40;
 	vertical 	= false;
+	tickInterval = 4;
 
 
 	constructor() { }

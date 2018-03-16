@@ -1,0 +1,91 @@
+#footer {
+	background-color: #f2f2f2;
+
+	.fo-container {
+		max-width: 1280px;
+		padding: 80px 20px;
+		margin: 0 auto;
+
+		h4 {
+			position: relative;
+			padding-bottom: 10px;
+			font-family: 'sofia-semibold';
+			font-size: 21px;
+			text-transform: uppercase;
+			color: #3e3d40;
+			margin-bottom: 30px;
+		}
+
+		h4:before {
+			background: #009933;
+			bottom: -1px;
+			content: "";
+			height: 2px;
+			position: absolute;
+			width: 50px;
+		}
+
+		.foc-about {
+			width: 380px;
+			margin-right: 35px;
+
+			img {
+				margin-right: 15px;
+				height: 150px;
+			}
+
+			p {
+				margin-bottom: 50px;
+			}
+
+			button {
+				color: #3e3d40;
+			}
+		}
+
+		.foc-news {
+			width: 250px;
+			margin-right: 35px;
+
+			.focn-trip {
+				margin-bottom: 15px;
+
+				.focnt-image {
+					width: 50px;
+					height: 50px;
+					background-image: url('/public/images/photos/pictures/region.jpg');
+					background-position: center center;
+					background-size: cover;
+					border-radius: 50%;
+					margin-right: 15px;
+				}
+
+				.focnt-info {
+					max-width: 200px;
+
+					h6 {
+						font-family: 'sofia-semibold';
+						font-size: 16px;
+						color: #3e3d40;
+						margin-bottom: 2px;
+					}
+
+					span {
+						font-family: 'avenir-regular';
+						font-size: 14px;
+					}
+				}
+			}
+		}
+
+		.foc-plan {
+			width: 250px;
+			margin-right: 25px;
+		}
+
+		.foc-contact {
+			width: 250px;
+
+		}
+	}
+}
