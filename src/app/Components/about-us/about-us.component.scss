@@ -1,0 +1,290 @@
+#about-us {
+
+	.au-top {
+		height: 550px;
+		background-image: url('/public/images/photos/pictures/equipe.jpg');
+		background-position: center;
+		background-size: cover;
+
+		.filter {
+			background: rgba(255, 255, 255, 0.8);
+		}
+
+		.background-team {
+			position: absolute;
+			width: 100%;
+			height: inherit;
+			background-image: url('/public/images/photos/masques/masque_1.png');
+			background-position: center 95%;
+			background-size: cover;
+			z-index: 200;
+		}
+
+		.au-top-text {
+			max-width: 1200px;
+			margin: 0 auto;
+			left: 0;
+			right: 0;
+			text-align: center;
+
+			h4 {
+				font-family: 'sofia-regular';
+				font-size: 18px;
+				margin-bottom: 15px;
+			}
+
+			p {
+				font-family: 'sofia-semibold';
+				font-size: 38px;
+				max-width: 600px;
+				margin: 0 auto;
+			}
+		}
+	}
+
+	.au-middle {
+		padding: 80px 0px 120px 0;
+/*		height: 1000px;
+*/		position: relative;
+		overflow: hidden;
+
+		.custom-filter {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 400px;
+			background-image: url('/public/images/photos/masques/masque_2.jpg');
+			background-position: center 0%;
+			background-size: cover;
+			z-index: -1;
+
+		}
+
+		h2 {
+			position: relative;
+			font-family: 'sofia-semibold';
+			font-size: 40px;
+			text-align: center;
+			padding-bottom: 15px;
+			margin-bottom: 60px;
+			text-transform: uppercase;
+		}
+
+		h2:before {
+			background: #009933;
+			bottom: -1px;
+			content: "";
+			height: 4px;
+			position: absolute;
+			width: 100px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+		}
+
+		.text {
+			background-color: #fff;
+			text-align: center;
+			margin-bottom: 160px;
+			margin-top: 120px;
+
+			h4 {
+				font-family: 'avenir-regular';
+				font-size: 26px;
+				margin-bottom: 60px;
+			}
+
+			.presentation {
+				max-width: 1000px;
+				margin: 0 auto;
+
+				.presentation-picture {
+					position: relative;
+					width: 50%;
+					height: 500px;
+					background-image: url('/public/images/photos/pictures/Loire_a_Velo.jpg');
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: 100% center;
+				}
+
+				.presentation-text {
+					width: 50%;
+				
+					h5 {
+						font-family: 'sofia-light';
+						font-size: 18px;
+					}
+
+					p {
+						font-family: 'avenir-regular';
+						font-size: 16px;
+						padding: 15px;
+						text-align: left;
+						max-width: 450px;
+						margin: 0 auto;
+					}
+				}
+			}
+		}
+
+		.h2-green {
+			position: relative;
+			text-transform: uppercase;
+			padding-bottom: 15px;
+			margin-bottom: 25px;
+		}
+
+		.h2-green:before {
+			background: #009933;
+			bottom: -1px;
+			content: "";
+			height: 4px;
+			position: absolute;
+			width: 100px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+		}
+
+		.au-middle-container {
+			max-width: 1200px;
+			margin: 0 auto;
+
+			.aumc-element {
+				margin: 0 15px;
+
+				img {
+					width: 120px;
+					height: 120px;
+					border-radius: 50%;
+					margin-right: 15px;
+				}
+
+				.aumce-info {
+					max-width: 250px;
+
+					h4 {
+						font-family: 'sofia-semibold';
+						font-size: 16px;
+						text-transform: uppercase;
+					}
+
+					span {
+						font-family: 'sofia-regular';
+						font-size: 15px;
+						color: #A9ACA9;
+					}
+
+					p {
+						margin-top: 10px;
+						font-family: 'avenir-regular';
+						font-style: 16px;
+						color: #3E3D40;
+					}
+				}
+			}
+		}
+	}
+
+	.au-find {
+		background-color: #f2f2f2;
+		padding: 80px 20px;
+
+		.auf-container {
+			max-width: 1200px;
+			margin: 0 auto;
+
+			.aufc-title {
+				align-items: center;
+				margin-bottom: 50px;
+
+				.dash-left, .dash-right {
+					height: 2px;
+					border-bottom: 1px solid;
+					flex-grow: 1;
+				}
+
+				p {
+					font-family: 'avenir-regular';
+					font-weight: bold;
+					font-size: 18px;
+					text-transform: uppercase;
+					margin: 0 10px;
+				}
+			}
+
+			.aufc-cards {
+				.aufc-card {
+					width: 350px;
+					margin: 0 15px;
+					background-color: #fff;
+
+					.aufcc-title {
+						text-align: center;
+
+						h5 {
+							font-family: 'sofia-semibold';
+							font-size: 16px;
+							text-transform: uppercase;
+							padding: 20px 15px;
+						}
+					}
+
+					.aufcc-picture {
+						width: inherit;
+						height: 250px;
+						background-image: url('https://velosverts.s3.eu-west-3.amazonaws.com/shops/March2018/vbJeCMyw8fGjz1UF3r7R.jpg');
+						background-position: center center;
+						background-size: cover;
+					}
+
+					.aufcc-text {
+						p {
+							font-family: 'sofia-light';
+							font-size: 16px;
+							color: #3E3D40;
+							padding: 25px;
+						}
+					}
+
+					.aufcc-button {
+						padding: 15px 25px 30px 25px;
+						text-align: center;
+
+						button {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.au-contact {
+		text-align: center;
+		padding: 80px 20px;
+
+		h2 {
+			font-family: 'sofia-semibold';
+			font-size: 28px;
+			color: #3E3D40;
+			margin-bottom: 20px;
+		}
+
+		p {
+			max-width: 800px;
+			margin: 0 auto;
+			font-family: 'avenir-regular';
+			font-size: 16px;
+			color: #3E3D40;
+			margin-bottom: 15px;
+		}
+
+		button {
+			font-size: 18px;
+		}
+
+	}
+}
