@@ -1,0 +1,266 @@
+<section id="renting">
+	<div class="renting-map"></div>
+
+	<div class="renting-search d-flex">
+		<div class="renting-filter">
+			<div class="ref-title">
+				<h4>Search filter</h4>
+			</div>
+
+			<div class="search-options">
+				<label>Trip duration</label>
+				<div class="so-slider">
+					<mat-slider class="search-slider cursor-pt"
+						[disabled]="disabled"
+						[invert]="invert"
+						[max]="max"
+						[min]="min"
+						[step]="step"
+						[thumb-label]="thumbLabel"
+						[(ngModel)]="value"
+						[vertical]="vertical">
+					</mat-slider>
+					<div class="tooltipw">{{ min / 10 }} to {{ value / 10 }} days</div>
+				</div>
+				<div class="slider-value d-flex">
+					<span class="day-start">3 days</span>
+					<span class="day-end">5 days</span>
+				</div>
+				<!-- <div class="select-types d-flex">
+					<div class="select-type d-flex">
+						<div class="select-box"></div>
+						<span>Séjour en marguerite</span>
+					</div>
+					<div class="select-type d-flex">
+						<div class="select-box"><i class="fa fa-check"></i></div>
+						<span>Séjour en étoile</span>
+					</div>
+				</div> -->
+			</div>
+
+			<div class="search-options">
+				<label class="label2">Type of trip</label>
+				<div class="select-types">
+					<div class="select-type d-flex">
+						<div class="select-box"></div>
+						<span>Séjour en marguerite</span>
+					</div>
+					<div class="select-type d-flex">
+						<div class="select-box"><i class="fa fa-check"></i></div>
+						<span>Séjour en étoile</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="renting-results">
+			<div class="rer-elements d-flex">
+				<div class="rer-element">
+					<div class="rere-title">
+						<h3>Château de la Loire à vélo</h3>
+						<span><i class="fa fa-map-marker-alt"></i> Chambord, Chenonceau, Fr</span>
+					</div>
+					<div class="rere-info">
+						<div class="rerei-picture"></div>
+						<div class="rerei-details">
+							<div class="detail-text">
+								<p>Au départ d'Amboise, les bords de la Loire et les bords du Cher vous conduiront à de belles découvertes comme le château de Chenonceau.</p>
+							</div>
+						</div>
+						<div class="rerei-bottom d-flex">
+							<div class="info-price">
+								<h6>Starts from</h6>
+								<p>250 €</p>
+							</div>
+
+							<button class="green-button info-detail cursor-pt">
+								View details
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="rer-element">
+					<div class="rere-title">
+						<h3>Château de la Loire à vélo</h3>
+						<span><i class="fa fa-map-marker-alt"></i> Chambord, Chenonceau, Fr</span>
+					</div>
+					<div class="rere-info">
+						<div class="rerei-picture"></div>
+						<div class="rerei-details">
+							<div class="detail-text">
+								<p>Au départ d'Amboise, les bords de la Loire et les bords du Cher vous conduiront à de belles découvertes comme le château de Chenonceau.</p>
+							</div>
+						</div>
+						<div class="rerei-bottom d-flex">
+							<div class="info-price">
+								<h6>Starts from</h6>
+								<p>250 €</p>
+							</div>
+
+							<button class="green-button info-detail cursor-pt">
+								View details
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="rer-element">
+					<div class="rere-title">
+						<h3>Château de la Loire à vélo</h3>
+						<span><i class="fa fa-map-marker-alt"></i> Chambord, Chenonceau, Fr</span>
+					</div>
+					<div class="rere-info">
+						<div class="rerei-picture"></div>
+						<div class="rerei-details">
+							<div class="detail-text">
+								<p>Au départ d'Amboise, les bords de la Loire et les bords du Cher vous conduiront à de belles découvertes comme le château de Chenonceau.</p>
+							</div>
+						</div>
+						<div class="rerei-bottom d-flex">
+							<div class="info-price">
+								<h6>Starts from</h6>
+								<p>250 €</p>
+							</div>
+
+							<button class="green-button info-detail cursor-pt">
+								View details
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="rer-element">
+					<div class="rere-title">
+						<h3>Château de la Loire à vélo</h3>
+						<span><i class="fa fa-map-marker-alt"></i> Chambord, Chenonceau, Fr</span>
+					</div>
+					<div class="rere-info">
+						<div class="rerei-picture"></div>
+						<div class="rerei-details">
+							<div class="detail-text">
+								<p>Au départ d'Amboise, les bords de la Loire et les bords du Cher vous conduiront à de belles découvertes comme le château de Chenonceau.</p>
+							</div>
+						</div>
+						<div class="rerei-bottom d-flex">
+							<div class="info-price">
+								<h6>Starts from</h6>
+								<p>250 €</p>
+							</div>
+
+							<button class="green-button info-detail cursor-pt">
+								View details
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="rer-element">
+					<div class="rere-title">
+						<h3>Château de la Loire à vélo</h3>
+						<span><i class="fa fa-map-marker-alt"></i> Chambord, Chenonceau, Fr</span>
+					</div>
+					<div class="rere-info">
+						<div class="rerei-picture"></div>
+						<div class="rerei-details">
+							<div class="detail-text">
+								<p>Au départ d'Amboise, les bords de la Loire et les bords du Cher vous conduiront à de belles découvertes comme le château de Chenonceau.</p>
+							</div>
+						</div>
+						<div class="rerei-bottom d-flex">
+							<div class="info-price">
+								<h6>Starts from</h6>
+								<p>250 €</p>
+							</div>
+
+							<button class="green-button info-detail cursor-pt">
+								View details
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="rer-element">
+					<div class="rere-title">
+						<h3>Château de la Loire à vélo</h3>
+						<span><i class="fa fa-map-marker-alt"></i> Chambord, Chenonceau, Fr</span>
+					</div>
+					<div class="rere-info">
+						<div class="rerei-picture"></div>
+						<div class="rerei-details">
+							<div class="detail-text">
+								<p>Au départ d'Amboise, les bords de la Loire et les bords du Cher vous conduiront à de belles découvertes comme le château de Chenonceau.</p>
+							</div>
+						</div>
+						<div class="rerei-bottom d-flex">
+							<div class="info-price">
+								<h6>Starts from</h6>
+								<p>250 €</p>
+							</div>
+
+							<button class="green-button info-detail cursor-pt">
+								View details
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="rer-element">
+					<div class="rere-title">
+						<h3>Château de la Loire à vélo</h3>
+						<span><i class="fa fa-map-marker-alt"></i> Chambord, Chenonceau, Fr</span>
+					</div>
+					<div class="rere-info">
+						<div class="rerei-picture"></div>
+						<div class="rerei-details">
+							<div class="detail-text">
+								<p>Au départ d'Amboise, les bords de la Loire et les bords du Cher vous conduiront à de belles découvertes comme le château de Chenonceau.</p>
+							</div>
+						</div>
+						<div class="rerei-bottom d-flex">
+							<div class="info-price">
+								<h6>Starts from</h6>
+								<p>250 €</p>
+							</div>
+
+							<button class="green-button info-detail cursor-pt">
+								View details
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="rer-element">
+					<div class="rere-title">
+						<h3>Château de la Loire à vélo</h3>
+						<span><i class="fa fa-map-marker-alt"></i> Chambord, Chenonceau, Fr</span>
+					</div>
+					<div class="rere-info">
+						<div class="rerei-picture"></div>
+						<div class="rerei-details">
+							<div class="detail-text">
+								<p>Au départ d'Amboise, les bords de la Loire et les bords du Cher vous conduiront à de belles découvertes comme le château de Chenonceau.</p>
+							</div>
+						</div>
+						<div class="rerei-bottom d-flex">
+							<div class="info-price">
+								<h6>Starts from</h6>
+								<p>250 €</p>
+							</div>
+
+							<button class="green-button info-detail cursor-pt">
+								View details
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="element-more">
+				<div class="elements">
+					<span>1</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
