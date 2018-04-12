@@ -19,6 +19,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { TranslateModule } from '@ngx-translate/core';
+import { MyDatePickerModule } from 'mydatepicker';
 
 @NgModule({
 	declarations: [
@@ -34,7 +35,8 @@ import { TranslateModule } from '@ngx-translate/core';
 		BsDropdownModule.forRoot(),
 		TooltipModule.forRoot(),
 		ModalModule.forRoot(),
-		TranslateModule.forRoot()
+		TranslateModule.forRoot(),
+		MyDatePickerModule
 	],
 	providers: [{ provide: LOCALE_ID, useValue: 'fr' }],
 	bootstrap: [AppComponent]

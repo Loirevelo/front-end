@@ -1,0 +1,148 @@
+<section id="confirmation-page">
+	<div class="confirmation-container">
+		<h1>Booking form</h1>
+
+		<nav class="bic-navbar">
+			<ul class="bicn-elements">
+				<li class="active" (click)="switchTemp(1)">Your trip</li>
+				<li (click)="switchTemp(2)">Participants</li>
+				<li>Accommodation</li>
+				<li>Bikes & Equipments</li>
+				<li>Insurance</li>
+				<li class="last-li">Confirmation</li>
+			</ul>
+		</nav>
+		<div class="confirmation-body">
+			<h2>Orléans à vélo en 4 jours</h2>
+
+			<div class="cb-container">
+
+				<!-- First template -->
+				<div class="cc-date-select" *ngIf="displayTemp === 1">
+					<div class="date-select start-date d-flex">
+						<label>Start date: </label>
+						<form #myForm="ngForm" novalidate>
+							<my-date-picker name="mydate" [options]="myDatePickerOptions" [(ngModel)]="date1" required></my-date-picker>
+						</form>
+						<div class="extra">
+							<span>Extra night: </span>
+							<div class="select-box"><i class='fa fa-check'></i></div>
+						</div>
+					</div>
+
+					<div class="date-select start-date d-flex">
+						<label>End date: </label>
+						<form #myForm="ngForm" novalidate>
+							<my-date-picker name="mydate" [options]="myDatePickerOptions" [(ngModel)]="date2" required></my-date-picker>
+						</form>
+						<div class="extra">
+							<span>Extra night: </span>
+							<div class="select-box"><i class='fa fa-check'></i></div>
+						</div>
+					</div>
+
+					<div class="food-select">
+						<span>Demi-pension: </span>
+						<div class="select-box"></div>
+					</div>
+					
+				</div>
+
+				<!-- Second template -->
+				<div class="cc-participant" *ngIf="displayTemp === 2">
+					<div class="ccp-title">
+						<h5>How many people?</h5>
+					</div>
+					<div class="ccp-selection">
+						<div class="ccps-adult">
+							<label class="main-label">How many adults ? </label>
+							<select>
+								<option value="1">1 person</option>
+								<option value="2">2 persons</option>
+								<option value="3">3 persons</option>
+								<option value="4">4 persons</option>
+								<option value="3">5 persons</option>
+								<option value="4">6 persons</option>
+							</select>
+						</div>
+						<div class="ccps-children d-flex">
+							<label class="main-label">Any children with you ? </label>
+							<div class="checkbox d-flex">
+								<span>Yes</span>
+								<div class="select-box cursor-pt" (click)="checkChild(1)"><i class="fa fa-check" *ngIf="checkedChild == 1"></i></div>
+							</div>
+							<div class="checkbox d-flex">
+								<span>No</span>
+								<div class="select-box cursor-pt" (click)="checkChild(0)"><i class="fa fa-check" *ngIf="checkedChild == 0"></i></div>
+							</div>
+							<select *ngIf="!noChild" class="children-select">
+								<option value="1">1 child</option>
+								<option value="2">2 children</option>
+								<option value="3">3 children</option>
+								<option value="4">4 children</option>
+								<option value="3">5 children</option>
+								<option value="4">6 children</option>
+							</select>
+							<div class="ccpsc-age" *ngIf="!noChild">
+								<div class="ccpsca-elements d-flex">
+									<label class="second-label">Enfant 1</label>
+									<input type="number" name="ageOfChild" />
+								</div>
+								<div class="ccpsca-elements d-flex">
+									<label class="second-label">Enfant 2</label>
+									<input type="number" name="ageOfChild" />
+								</div>
+								<div class="ccpsca-elements d-flex">
+									<label class="second-label">Enfant 3</label>
+									<input type="number" name="ageOfChild" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="validate-button">
+				<button class="black-button cursor-pt">Previous</button>
+				<button class="green-button cursor-pt">Next step</button>
+			</div>
+
+			<div class="cc-summary">
+				<h5>Summary of your trip</h5>
+				<div class="ccs-container d-flex">
+					<div class="ccs-title">
+						<h3>A long week-end of holidays in Oléans</h3>
+						<span>From 09.10.2018 - 15.10.2018 for 3 persons (6 days)</span>
+					</div>
+					<div class="ccs-options">
+						<h4>Trip options</h4>
+						<div class="select-elements">
+							<div class="select-price">
+								<li class="option-title">Category C</li> <li class="amount">x3</li> <li class="price">1759.00 €</li>
+							</div>
+							<div class="select-price">
+								<li class="option-title">Extra night in Orléans</li> <li class="amount">x3</li> <li class="price">1759.00 €</li>
+							</div>
+							<div class="select-price">
+								<li class="option-title">Half-board</li> <li class="amount">x3</li> <li class="price">1759.00 €</li>
+							</div>
+							<div class="select-price">
+								<li class="option-title">Luggage transport</li> <li class="amount">x3</li > <li class="price">1759.00 €</li>
+							</div>
+						</div>
+						<div class="total-prices">
+							<div class="select-price">
+								<li class="option-title"></li> <li class="amount">Total</li > <li class="price">5277.00 €</li>
+							</div>
+						</div>
+
+					</div>
+					<div class="ccs-prices">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

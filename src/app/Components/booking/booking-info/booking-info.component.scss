@@ -1,0 +1,138 @@
+#booking-info {
+	.bi-container {
+		width: 1100px;
+		padding: 80px 20px;
+		margin: 0 auto;
+
+		.bic-navbar {
+			.bicn-elements {
+				display: flex;
+				border-bottom: 1px solid #f2f2f2;
+				box-shadow: -1px 2px 2px -2px #A9Aca9;
+
+				li {
+					background-color: #f2f2f2;
+					border-top: 2px solid #f2f2f2;
+					padding: 15px 55px;
+					font-family: 'sofia-semibold';
+					font-size: 14px;
+					text-transform: uppercase;
+					margin-right: 2px;
+					cursor: pointer;
+					border-right: 1px solid #fff;
+					border-left: 1px solid #fff;
+					color: #3E3D40;
+				}
+
+				.active, li:hover {
+					border-top: 2px solid #009933;
+					color: #009933;
+					background-color: #fff;
+					border-right: 1px solid #f2f2f2;
+					border-left: 1px solid #f2f2f2;
+				}
+
+				.last-li {
+					margin-right: 0;
+				}
+			}
+		}
+
+		.bic-body {
+			padding: 30px 0;
+
+			.bicb-top {
+				img {
+					width: 500px;
+					height: auto;
+				}
+
+				.bicbt-include {
+					.bicbti-list {
+						column-count: 2;
+					}
+				}
+			}
+
+			.bicb-chronologies {
+
+			}
+		}
+	}
+
+	.au-find {
+		background-color: #fafafa;
+		padding: 80px 20px;
+
+		.auf-container {
+			max-width: 1200px;
+			margin: 0 auto;
+
+			.aufc-title {
+				align-items: center;
+				margin-bottom: 50px;
+
+				.dash-left, .dash-right {
+					height: 2px;
+					border-bottom: 1px solid;
+					flex-grow: 1;
+				}
+
+				p {
+					font-family: 'avenir-regular';
+					font-weight: bold;
+					font-size: 18px;
+					text-transform: uppercase;
+					margin: 0 10px;
+				}
+			}
+
+			.aufc-cards {
+				justify-content: center;
+				
+				.aufc-card {
+					width: 350px;
+					margin: 0 15px;
+					background-color: #fff;
+
+					.aufcc-title {
+						text-align: center;
+
+						h5 {
+							font-family: 'sofia-semibold';
+							font-size: 16px;
+							text-transform: uppercase;
+							padding: 20px 15px;
+						}
+					}
+
+					.aufcc-picture {
+						width: inherit;
+						height: 250px;
+						background-image: url('https://velosverts.s3.eu-west-3.amazonaws.com/shops/March2018/vbJeCMyw8fGjz1UF3r7R.jpg');
+						background-position: center center;
+						background-size: cover;
+					}
+
+					.aufcc-text {
+						p {
+							font-family: 'sofia-light';
+							font-size: 16px;
+							color: #3E3D40;
+							padding: 25px;
+						}
+					}
+
+					.aufcc-button {
+						padding: 15px 25px 30px 25px;
+						text-align: center;
+
+						button {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
